@@ -30,12 +30,16 @@ This project implements a task queue using Bull, a popular Node.js library, with
 
 2. Install the required dependencies:
    npm install
-3.Make sure to replace the values with your actual Redis server details if they differs.
-4. Running the Project
+   
+4. Make sure to replace the values with your actual Redis server details if they differs.
+   
+5. Running the Project
    Start your Redis server. If Redis is installed locally, you can run:
    redis-server
-5.The server will be running on http://localhost:8000 ,it can differ in other devices check on which port the server is running by logging the server port in console.
-6.API Endpoints
+   
+6.The server will be running on http://localhost:8000 ,it can differ in other devices check on which port the server is running by logging the server port in console.
+
+7.API Endpoints
 You can run this on postman
 POST method  /api/task
 Request Body:
